@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D88B65431573289F00AFC558 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D88B65421573289F00AFC558 /* test.jpg */; };
 		D8E1166D1573262B00B66DE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E1166C1573262B00B66DE2 /* UIKit.framework */; };
 		D8E1166F1573262B00B66DE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E1166E1573262B00B66DE2 /* Foundation.framework */; };
 		D8E116711573262B00B66DE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E116701573262B00B66DE2 /* CoreGraphics.framework */; };
@@ -19,19 +20,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D88B65421573289F00AFC558 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test.jpg; path = Resource/test.jpg; sourceTree = "<group>"; };
 		D8E116681573262B00B66DE2 /* GFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E1166C1573262B00B66DE2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D8E1166E1573262B00B66DE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8E116701573262B00B66DE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D8E116741573262B00B66DE2 /* GFace-Info.plist */ = {isa = PBXFileReference; path = "GFace-Info.plist"; sourceTree = "<group>"; };
+		D8E116741573262B00B66DE2 /* GFace-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GFace-Info.plist"; sourceTree = "<group>"; };
 		D8E116761573262B00B66DE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8E116781573262B00B66DE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D8E1167A1573262B00B66DE2 /* GFace-Prefix.pch */ = {isa = PBXFileReference; path = "GFace-Prefix.pch"; sourceTree = "<group>"; };
-		D8E1167B1573262B00B66DE2 /* GFaceAppDelegate.h */ = {isa = PBXFileReference; path = GFaceAppDelegate.h; sourceTree = "<group>"; };
+		D8E1167A1573262B00B66DE2 /* GFace-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GFace-Prefix.pch"; sourceTree = "<group>"; };
+		D8E1167B1573262B00B66DE2 /* GFaceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFaceAppDelegate.h; sourceTree = "<group>"; };
 		D8E1167C1573262C00B66DE2 /* GFaceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFaceAppDelegate.m; sourceTree = "<group>"; };
 		D8E1167F1573262C00B66DE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		D8E116821573262C00B66DE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		D8E116841573262C00B66DE2 /* GFaceViewController.h */ = {isa = PBXFileReference; path = GFaceViewController.h; sourceTree = "<group>"; };
+		D8E116841573262C00B66DE2 /* GFaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFaceViewController.h; sourceTree = "<group>"; };
 		D8E116851573262C00B66DE2 /* GFaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFaceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D88B6540157327F900AFC558 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D88B65421573289F00AFC558 /* test.jpg */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 		D8E1165D1573262A00B66DE2 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +89,7 @@
 		D8E116721573262B00B66DE2 /* GFace */ = {
 			isa = PBXGroup;
 			children = (
+				D88B6540157327F900AFC558 /* Resource */,
 				D8E1167B1573262B00B66DE2 /* GFaceAppDelegate.h */,
 				D8E1167C1573262C00B66DE2 /* GFaceAppDelegate.m */,
 				D8E1167E1573262C00B66DE2 /* MainStoryboard_iPhone.storyboard */,
@@ -155,6 +166,7 @@
 				D8E116771573262B00B66DE2 /* InfoPlist.strings in Resources */,
 				D8E116801573262C00B66DE2 /* MainStoryboard_iPhone.storyboard in Resources */,
 				D8E116831573262C00B66DE2 /* MainStoryboard_iPad.storyboard in Resources */,
+				D88B65431573289F00AFC558 /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +301,7 @@
 				D8E1168B1573262C00B66DE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
